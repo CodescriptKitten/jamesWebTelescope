@@ -1,0 +1,129 @@
+/* CSS Document */
+
+/*
+
+Colors:
+
+Light Logo Gray - #8B8C8C
+Dark Logo Gray - #565959
+Black Logo Gray -#0D0D0D
+Solor Logo Yellow - #F2E205
+Solar Logo Gold - #F2A444
+Solar Logo Brown - #BF6430
+
+
+
+Font-Families:
+
+font-family: 'Coda', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@400;700&display=swap');
+
+*, *:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #0D0D0D;
+	color: #F2A444;
+}
+
+h1 {
+	font-family: 'Coda', cursive;
+}
+
+h2 {
+	font-family: 'Coda', cursive;
+}
+
+blockquote {
+	font-family: 'PT Sans', sans-serif;
+}
+
+table {
+	
+}
+
+#navImage {
+	display: inline-block;
+	padding: .5;
+	max-height: 5em;
+	float: left;
+}
+
+nav {
+	list-style-type: none;
+	background-color: #565959;
+	height: 5em;
+	padding-left: .9em;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 1.6em;
+	padding: .9em;
+	display: inline-block;
+}
+
+nav ul li a:link {
+	color: #F2E205;
+	text-shadow: 2px 2px 0 #0D0D0D;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #F2E205;
+	text-shadow: 2px 2px 0 #0D0D0D;
+	text-decoration: none;
+}
+
+nav ul li a:active {
+	color: #F2E205;
+	text-shadow: 2px 2px 0 #0D0D0D;
+	text-decoration: none;
+}
+
+nav ul li a:visited {
+	color: #F2E205;
+	text-shadow: 2px 2px 0 #0D0D0D;
+	text-decoration: none;
+}
+
+header {
+	
+}
+
+main {
+	padding: 3em;
+	font-family: 'PT Sans', sans-serif;
+}
+
+image {
+	
+}
+
+main p {
+	padding: 2em;
+}
+
+#footNav {
+	text-align: center;
+}
+
+footer {
+	padding: 3em;
+}
+
+footer p {
+	
+}
