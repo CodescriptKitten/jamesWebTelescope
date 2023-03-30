@@ -6,7 +6,8 @@ Colors:
 
 Light Logo Gray - #8B8C8C
 Dark Logo Gray - #565959
-Black Logo Gray -#0D0D0D
+Black Logo Gray - #0D0D0D
+Inverted Black Logo Gray - #f2f2f2
 Solor Logo Yellow - #F2E205
 Solar Logo Gold - #F2A444
 Solar Logo Brown - #BF6430
@@ -36,25 +37,56 @@ body {
 
 h1 {
 	font-family: 'Coda', cursive;
+	text-shadow: 2px 2px 1px #0D0D0D;
+	font-size: 5em;
+	color: #f2f2f2;
 }
 
 h2 {
 	font-family: 'Coda', cursive;
+	font-size: 2em;
+	padding-bottom: 1em;
 }
 
 blockquote {
 	font-family: 'PT Sans', sans-serif;
+	padding: 0.8em;
+	font-size: 1.5em;
 }
 
 table {
-	
+	font-size: 1.4em;
+	border: double;
+	border-width: 4px;
+	border-color: #BF6430;
+	padding: 0.6em;
+}
+
+table tr {
+	padding: 2em;
+}
+
+input {
+	font-size: 1.1em;
+	border-radius: 10px 0;
+	background-color: #8B8C8C;
+	margin: 0.5em 0;
+}
+
+.btn {
+	border: solid;
+	border-width: 2px;
+	border-color: #F2A444;
+	margin-left: .5em;
 }
 
 #navImage {
 	display: inline-block;
-	padding: .5;
+	padding: 0 .5em;
 	max-height: 5em;
+	margin: 0;
 	float: left;
+	border: none;
 }
 
 nav {
@@ -100,20 +132,48 @@ nav ul li a:visited {
 }
 
 header {
-	
+	padding: 2em;
+	background-image: url("../images/tarantulaNebula.png");
+	background-size: cover;
+	min-height: 300px;
 }
 
 main {
 	padding: 3em;
 	font-family: 'PT Sans', sans-serif;
+	min-height: 600px;
 }
 
-image {
-	
+img {
+	float: left;
+	display: block;
+	border: ridge;
+	margin: 1.6em;
+	border-width: 5px;
+	border-color: #F2A444;
+	max-width: 27%;
 }
 
 main p {
-	padding: 2em;
+	margin: 1em;
+	font-size: 1.3em;
+}
+
+main ul {
+	list-style-type: none;
+	margin: 2em;
+	font-size: 1.3em;
+	padding: 1em;
+}
+
+main ul li:before {
+	content: '\2014';
+	position: absolute;
+	margin-left: -20px;
+}
+
+main a {
+	color: #f2f2f2;
 }
 
 #footNav {
@@ -125,5 +185,10 @@ footer {
 }
 
 footer p {
-	
+	text-align: center;
+	font-size: .9em
+}
+
+#fairUse {
+	padding: 1em;
 }
